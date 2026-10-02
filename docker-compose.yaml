@@ -183,7 +183,7 @@ services:
   sovd-cda:
     image: ghcr.io/eclipse-sdv-blueprints/commercial-sdv-stack/sovd-cda:latest
     build:
-      context: https://github.com/eclipse-opensovd/classic-diagnostic-adapter.git
+      context: https://github.com/eclipse-opensovd/classic-diagnostic-adapter.git#99c60782a6e25f6cff9ba3a3418d0750f936016e
       dockerfile: ./testcontainer/cda/Dockerfile
     ports:
       - "${CDA_PORT:-20002}:20002"
