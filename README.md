@@ -7,6 +7,11 @@ Use cases currently include:
 * Over-the-Air (OTA) firmware updates of ECUs
 * OTA configuration changes of ECUs
 
+## Documentation
+
+Start with the [Commercial SDV Stack guide](docs/website/introduction.md) for prerequisites, setup, architecture, step-by-step use cases, and troubleshooting.
+Maintainers can follow the [website integration guide](docs/WEBSITE_INTEGRATION.md) to publish these pages on the Eclipse SDV Blueprints website.
+
 ## Top Level View
 
 The following diagram provides an overview of the components used for the example use cases and their relationship to each other:
